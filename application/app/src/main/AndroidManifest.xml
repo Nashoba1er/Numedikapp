@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Numedikapp"
+        tools:targetApi="31">
+        <activity
+            android:name=".Dashboard2"
+            android:exported="false"
+            android:label="@string/title_activity_dashboard2"
+            android:theme="@style/Theme.Numedikapp" />
+        <activity
+            android:name=".InfosPerso"
+            android:exported="false"
+            android:label="@string/title_activity_infos_perso"
+            android:theme="@style/Theme.Numedikapp" />
+        <activity
+            android:name=".Settings"
+            android:exported="false"
+            android:label="@string/title_activity_settings"
+            android:theme="@style/Theme.Numedikapp" />
+        <activity
+            android:name=".Inscription"
+            android:exported="false"
+            android:label="@string/title_activity_inscription"
+            android:theme="@style/Theme.Numedikapp" />
+        <activity
+            android:name=".Dashboard"
+            android:exported="false"
+            android:label="@string/title_activity_dashboard"
+            android:theme="@style/Theme.Numedikapp" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Numedikapp">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

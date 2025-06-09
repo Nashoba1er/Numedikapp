@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Numedikapp</string>
+    <string name="app_logo_description">Numedikapp logo</string>
+    <string name="act_main_open">Se Connecter</string>
+    <string name="act_main_fill_Password">Mot de passe</string>
+    <string name="act_main_fill_User">Nom d\'utilisateur</string>
+    <string name="title_activity_dashboard">Tableau de bord</string>
+    <string name="act_main_login">S\'inscrire</string>
+    <string name="title_activity_inscription">Inscription</string>
+    <string name="act_dashboard_name">Programme nutritionnel</string>
+    <string name="app_go_back_description">Retour en arrière</string>
+    <string name="app_go_Settings_description">Paramètres</string>
+    <string name="title_activity_settings">Paramètres</string>
+    <string name="act_power_off">Déconnexion</string>
+    <string name="act_inscription_âge">Âge</string>
+    <string name="act_inscription_fill_email">Email</string>
+    <string name="act_inscription_register">Enregistrer</string>
+    <string name="act_inscription_label">Objectif</string>
+    <string name="act_inscription">Inscription</string>
+    <string name="app_go_infos_perso_description">Infos Perso</string>
+    <string name="title_activity_infos_perso">InfosPerso</string>
+    <string name="Femme">Femme</string>
+    <string name="Homme">Homme</string>
+    <string name="Autre">Autre</string>
+    <string name="Sportif">Sportif</string>
+    <string name="Cognitif">Cognitif</string>
+    <string name="WellBeing">Bien-être</string>
+    <string name="Decouverte">Découverte</string>
+    <string name="title_activity_dashboard2">Tableau de bord 2</string>
+   <string name="act_dashboard2_name">Tableau de bord de %1$s</string>
+
+
+</resources>
